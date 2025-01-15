@@ -15,14 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-	  <plugins>
+<build>
+    <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.4.0</version>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version>
         </plugin>
     </plugins>
-    <finalName>my_project</finalName>
-  </build>
+</build>
+
 </project>
